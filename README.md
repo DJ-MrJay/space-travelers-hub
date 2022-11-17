@@ -6,7 +6,7 @@
 
 # Screenshot
 
-![Alt text](./src/images/space-traveler.jpg 'Space Travelers')
+![Alt text](./src/images/space-traveler.png 'Space Traveler')
 
 ## Built With
 
