@@ -13,8 +13,8 @@ const Missioncard = ({ missionname, description, id, missionjoin }) => {
     dispatch(unjoinMission(event.target.id));
   };
   return (
-    <li className="mr-8 ml-6 grid border-l border-r border-b border-zinc-300 divide-x-[1px] divide-zinc-300 grid-cols-7">
-      <div className="col-span-1 p-2 font-bold">{missionname}</div>
+    <li className="grid border-l border-r border-b border-zinc-300 divide-x-[1px] divide-zinc-300 grid-cols-7">
+      <div className="col-span-1 p-2 font-bold m-0">{missionname}</div>
       <div className="col-span-4 p-2 text-sm font-light">{description}</div>
       <div className="col-span-1 p-2 flex justify-center items-center">
         {missionjoin === false ? (

@@ -13,14 +13,14 @@ const Missionlist = () => {
     }
   }, []);
   return (
-    <div>
-      <div className="mr-8 mt-6 ml-6 grid border border-zinc-300 divide-x-[1px] divide-zinc-300 grid-cols-7">
-        <div className="col-span-1 font-bold py-2 pl-2">Mission</div>
-        <div className="col-span-4 font-bold py-2 pl-2">Description</div>
-        <div className="col-span-1 font-bold py-2 pl-2">Status</div>
+    <div className="p-5">
+      <div className="grid border border-zinc-300 divide-x-[1px] divide-zinc-300 grid-cols-7">
+        <div className="col-span-1 font-bold p-2">Mission</div>
+        <div className="col-span-4 font-bold p-2">Description</div>
+        <div className="col-span-1 font-bold p-2 text-center">Status</div>
         <div className="col-span-1" />
       </div>
-      <ul className="mb-6 mission-ul">
+      <ul className="mission-ul">
         {mission.map((item) => (
           <Missionscard
             key={item.missionid}

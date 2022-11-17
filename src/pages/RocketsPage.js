@@ -25,7 +25,7 @@ const RocketsPage = () => {
     />
   ));
 
-  return <ul className="my-4">{rocketElements}</ul>;
+  return <ul className="px-5 pt-5">{rocketElements}</ul>;
 };
 
 export default RocketsPage;

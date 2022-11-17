@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 import planet from '../images/planet.png';
 
 const Header = () => (
-  <div className="flex justify-between items-center py-3 border-zinc-300 border-b">
-    <div className="flex items-center ml-6">
+  <div className="flex justify-between items-center px-5 py-3 border-zinc-300 border-b">
+    <div className="flex gap-4 items-center">
       <img src={planet} alt="planetImage" width="52px" />
-      <h3 className="text-3xl pl-2">Space Travelers&apos; Hub</h3>
+      <h3 className="text-3xl">Space Travelers&apos; Hub</h3>
     </div>
-    <ul className="flex mr-8">
-      <li className="px-4 text-[#017bfe]">
+    <ul className="flex gap-8">
+      <li className="text-[#017bfe]">
         <NavLink
           to="/"
           style={({ isActive }) => ({
@@ -19,7 +19,7 @@ const Header = () => (
           Rockets
         </NavLink>
       </li>
-      <li className="px-4 text-[#017bfe]">
+      <li className="text-[#017bfe]">
         <NavLink
           to="/missionspage"
           style={({ isActive }) => ({
@@ -29,7 +29,8 @@ const Header = () => (
           Missions
         </NavLink>
       </li>
-      <li className="px-4 border-l border-slate-500  text-[#017bfe]">
+      <li className="-mx-4">|</li>
+      <li className="text-[#017bfe]">
         <NavLink
           to="/myprofilepage"
           style={({ isActive }) => ({
