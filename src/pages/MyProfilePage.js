@@ -16,7 +16,7 @@ const MyProfilePage = () => {
       <div className="">
         <div className="text-xl mb-2">Missions</div>
         {missiondata.length > 0 ? (
-          <ul className="border divide-y-[1px]">
+          <ul className="border rounded divide-y-[1px]">
             {missiondata.map((mission) => (
               <li key={mission.missionid} className="p-3">
                 {mission.missionName}
@@ -30,7 +30,7 @@ const MyProfilePage = () => {
       <div className="">
         <div className="text-xl mb-2">Rockets</div>
         {rocketProfile.length > 0 ? (
-          <ul className="border divide-y-[1px]">
+          <ul className="border rounded divide-y-[1px]">
             {rocketProfile.map((rocket) => (
               <li key={rocket.id} className="p-3">
                 {rocket.title}
