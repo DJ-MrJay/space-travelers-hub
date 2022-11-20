@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://dj-mrjay.github.io/space-travelers-hub/)
 
 ## Getting Started
 
